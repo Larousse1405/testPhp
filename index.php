@@ -25,7 +25,7 @@
             echo "<li class='list-group-item'>item".($i+1)."</li>";
         }
         echo "</ul>";
-        echo "<a href='add.php' class='btn btn-primary m-5'>Ajouter Item</a>";
+        echo "<a href='./views/pages/add.php' class='btn btn-primary m-5'>Ajouter Item</a>";
         ?>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </body>

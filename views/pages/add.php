@@ -7,10 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
-<form>
+<form method = "POST" action = "../../controllers/formcontroller.php">
   <div class="mb-3">
     <label for="item" class="form-label">Entrer le nom de l'Item</label>
-    <input type="text" class="form-control" id="item" aria-describedby="emailHelp">
+    <input type="text" class="form-control" id="item" name = "nom" aria-describedby="emailHelp">
 
   
   <button type="submit" class="btn btn-primary m-5">Ajouter</button>
